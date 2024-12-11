@@ -24,17 +24,19 @@ class MultiApp:
         })
 
     def run():
-        with st.sidebar:        
+         with st.sidebar:        
             app = option_menu(
                 menu_title="Main Menu",
-                options=['IMG Compressor','About','Contact Us'],
-                icons=['image','book','envelope'],
+                options=['BG Remover','IMG Compressor','About','Contact Us'],
+                icons=['image','crop','book','envelope'],
                 menu_icon='cast',
                 default_index=0
                 
                 )
 
         
+        if app == "BG Remover":
+            bg_remover.app()
         if app == "IMG Compressor":
             img_Compressor.app()
         if app == "About":
