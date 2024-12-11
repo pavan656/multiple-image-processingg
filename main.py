@@ -35,7 +35,7 @@ class MultiApp:
                 )
 
         
-        if app == "BG Remover":
+        if app == 'BG Remover':
             bg_remover.app()
         if app == "IMG Compressor":
             img_Compressor.app()
