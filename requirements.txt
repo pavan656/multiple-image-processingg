@@ -1,4 +1,4 @@
 Pillow==9.5.0
-rembg==2.0.28
+rembg
 streamlit==1.25.0
 streamlit_option_menu==0.3.13
