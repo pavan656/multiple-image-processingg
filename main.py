@@ -1,6 +1,6 @@
 import streamlit as st
 from streamlit_option_menu import option_menu
-import img_Compressor,about,contact
+import bg_remover,img_Compressor,about,contact
 
 hide_st_style = """
             <style>
